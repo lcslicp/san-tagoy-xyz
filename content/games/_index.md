@@ -1,5 +1,5 @@
 ---
-title: Blogs
+title: Games
 date: 2021-09-12
 summary: your summary here
 bookFlatSection: true

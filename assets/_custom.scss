@@ -473,7 +473,7 @@ body[dir='rtl'] .book-menu input.toggle:checked + label::after {
 }
 .book-toc nav > ul > li:first-child {
   margin-top: 0;
-  // background-color: #907F9F;
+  background-color: transparent;
 }
 .book-footer {
   padding-top: 1rem;
@@ -519,7 +519,7 @@ body[dir='rtl'] .book-menu input.toggle:checked + label::after {
     z-index: 1;
   }
   .book-toc {
-    display: none;
+    display: block;
   }
   .book-header {
     display: block;
@@ -854,9 +854,15 @@ body {
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-position: top right;
-  background-size: 25%;
+  background-size: 23%;
   background-repeat: no-repeat;
   @media(min-width: 897px) {
       padding-top: 5rem;
   }
+}
+
+#TableOfContents > ul > li > a {
+  color: var(--darkpurple);
+  padding-top: 50px;
+  font-weight: bold;
 }
