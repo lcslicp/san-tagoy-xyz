@@ -12,5 +12,12 @@ _Sample subsection_ write description here or anything. Incoming dummy text. Lor
 
 _Sample subsection_ write description here or anything. Incoming dummy text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
+## Table of Contents text
+
+Incoming dummy text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+
 {{< section >}}  <!-- Copy/paste this code if you want the sections to appear, otherwise just omit it. -->
 
